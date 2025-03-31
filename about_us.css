@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* <!-- ------------------------------------------------------------------------ --> */
+/* <!-- ------------------------------------------------------------------------ --> */
+/* <!-- Navigational Bar --> */
+.back_img{
+    width: 100%;
+    height: 900px;
+    /* background-color: red; */
+    margin:0px;
+    padding: 0px;
+    background-image: url("https://img.playbook.com/HdgCOT6ar8IU95T-075nJ_4arqACXhH6V4gruq9Q1ZA/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzk4YWIzZTdk/LTczYzktNGYyMi05/NzA5LTlmM2U5YTc1/OGZjOA");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-left: 10%; */
+}
+
+.topper{
+    /* position: absolute; */
+    top: 0;
+    left:0;
+    width:98;
+    padding :0px 20px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* z-index: 100; */
+}
+
+.navbar{
+    height: 50px;
+    /* background-color: red; */
+    margin-top:45px;
+    margin-right: 2%;
+}
+
+
+.navbar a{
+    font-size:25px;
+    color: black;
+    font-weight:600;
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+
+
+.navbar a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+
+.logo{
+    background-size: cover;
+    height: 250px;
+    width: 90%;
+    margin-right: 50px;
+    margin-top: 1px;
+}
+
+
+
+
+/* .transparent{
+    width: 100%;
+    height: 749px;
+    background-color: grey;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+} */
+
+.img_text{
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    font-size: 60px;
+    /* position: absolute; */
+    top: 45%;
+    padding-top: 70px;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.9;
+    font-family:Georgia, 'Times New Roman', Times, serif ;   
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------- */
+/* About us Section */
+
+.main{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+   
+}
+
+.main .body{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin: 55px;
+
+}
+
+
+.contain p{
+    font-size: 22px;
+    text-align: left;
+    margin-top: 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.img_abt{
+    width: 40%;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin:80px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+
+.img_abt img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* footer */
+
+.footer{
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_box{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.footer_box ul{
+    /* padding: 20px; */
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    color: grey;
+    margin-left: 20px;
+    /* font-weight: bold; */
+}
+
+.footer_box ul li{
+    padding-bottom: 16px;
+}
+
+.footer_box ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer_box ul li a:hover{
+    color: red;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.add{
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    margin-left:20px;
+    /* font-weight: bold; */
+
+}
+
+.connect{
+    width: 90%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.icons{
+    width:100%;
+    height:50px;
+    /* border:1px solid red; */
+    margin-top:30px;
+    display: flex;
+    /* justify-content:space-evenly; */
+    
+    
+}
+
+
+.icons .facebook,.instagram,.twitter{
+    width: 60px;
+    height: 50px;
+    /* border:1px solid rgb(221, 216, 223); */
+    border-radius: 10px;
+    background-color: rgb(221, 216, 223);
+    margin-left: 30px;
+}
+
+.icons .facebook i,.instagram i,.twitter i{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 30px;
+    color:black;
+}
+
+.facebook a,.instagram a,.twitter a{
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background-color: rgb(32, 77, 113);
+    border: 1px solid blue;
+}
+.instagram:hover{
+    background-color: rgb(217, 155, 165);
+    border: 1px solid pink;
+}
+.twitter:hover{
+    background-color: rgb(40, 153, 191);
+    /* opacity: 0.7; */
+    border: 1px solid lightblue;
+}
+
+
+
+.madeby{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+
+}
+.madeby h1{
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: 'Maven Pro', sans-serif;
+}
